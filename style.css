@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+
+}
+
+h1{
+    animation: type 4s steps(27);
+    font-family: cursive;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white;
+    width: 26ch;
+    margin-top: 8%;
+}
+
+h3{
+    animation: type 4s steps(25);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid whitesmoke;
+    width: 25ch;
+    margin-top: 8%;
+}
+
+@keyframes type {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 28ch;
+    }
+}
